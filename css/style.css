@@ -62,7 +62,52 @@ body {
 }
 .duconteiner {
     background-color: white;
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
     border-radius: 0px 0px 5px 5px;
+    padding: 60px;
+    padding-top: 30px;
+}
+ul {
+    list-style-type: none;
+}
+.big-title  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.positive {
+    border: solid 1px #6bc4ae;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    color: #6bc4ae; 
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center; 
+    line-height: 20px;
+    font-size:small ;
+}
+.negative {
+    border: solid 1px red;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center; 
+    line-height: 16px;
+    font-size: small;
+}
+.space {
+    margin-bottom: 20px;
+}
+.element {
+    margin: 10px;
+}
+#arrow {
+    font-size: small;
+    display: inline-block;
+    margin-right: 8px;
 }
